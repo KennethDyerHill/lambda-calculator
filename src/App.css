@@ -1,22 +1,97 @@
-.container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
-}
-.display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
+.container{
+    background: #A63C40;
+    border-radius: 10px;
+    height: 445px;
+    width: 270px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+    flex-direction: column;
+    padding: 15px;
+}
+
+.logo{
+    height: 30px;
+    width: 100px;
+    padding: 15px 0 0 15px;
+}
+
+.display{
+    background: black;
+    color: white;
+    height: 60px;
+    width: 255px;
+    text-align: right;
+    line-height: 50px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    font-size: 2rem;
+}
+
+.numberClass{
+    background: #004C76;
+    border-radius: 100%;
+    color: white;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px black;
+    border: none;
+    margin:5px;
+}
+
+.numberClass:nth-child(10){
+    width: 120px;
+    border-radius: 50px;
+
+}
+.operatorClass{
+    background: #1A7490;
+    border-radius: 100%;
+    color: white;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px black;
+    border: none;
+    margin:5px;
+}
+
+.specialClass{
+    background: #01679A;
+    border-radius: 100%;
+    color: white;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px  black;
+    border: none;
+    margin:5px;
+}
+
+/* BUTTON CONTAINERS */
+.buttonContainer{
+    display: flex;
+}
+
+.numbersContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.operatorContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.specialContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.number-special-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
